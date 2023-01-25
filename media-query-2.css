@@ -1,0 +1,180 @@
+@media only screen and (max-width: 414px)  {
+
+    .menu-mobile { 
+        position: fixed; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: space-evenly; 
+        top: 0; 
+        left: -100%; 
+        width: 80%; 
+        height: 100%; 
+        background: rgb(192, 183, 183); 
+        padding: 20px; 
+        box-sizing: border-box; 
+        transition: all 0.3s ease; 
+        z-index: 1; 
+    }
+
+    .menu-btn { 
+        display: flex; 
+        position: absolute; 
+        background: transparent; 
+        z-index: 2; 
+        border: none; 
+        cursor: pointer; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        top: 10px; 
+        left: 10px; 
+        width: 30px; 
+        height: 30px; 
+        
+    }
+    .menu-mobile.open { 
+        left: 0; 
+    } 
+    .menu-mobile p { 
+        text-decoration: none; 
+        color: white; 
+        font-size: 20px; 
+    } 
+.container {
+    height: auto;
+    width: 100%;
+}    
+
+.menu-holder {
+    display: none;
+}
+
+.top-menu-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.main-text p {
+    margin-bottom: 80px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.main-text .center-btn {
+    margin-left: 15px;
+}
+
+.black {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.stefan img {
+    width: 100%;
+    height: 70%;
+}
+
+.slack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.slack h1 {
+    text-align: center;
+}
+
+.slack p {
+    margin-right: 55px;
+    width: 85%;
+    text-align: center;
+}
+
+.pricing p{
+    width: 100%;
+    text-align: center;
+}
+
+.most-team {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.most-team h1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;   
+}
+
+.scale-container-info {
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.scale-container-info p {
+    width: 90%;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.leaf {
+    display: none;
+}
+
+
+.type1 {
+    width: 70%;
+    margin-right: 90px;
+}
+
+.trans-btn {
+    margin-right: 80px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer-logo-2 {
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+}
